@@ -4,34 +4,40 @@
     padding: 10px;
 }
 
-.container p{
-    text-align: center;
-    font-size: 30px;
-    
+.container h1{
+background-color: dodgerblue;
+width: 50%;
+margin: auto;
+color: white;
+border-radius: 10px;
+text-align: center;
+padding: 10px;
+text-transform: capitalize;
 }
 
 table{
     width: 100%;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 50px;
     font-size: 16px;
 }
 
 table,td,th{
+    border: 1px solid white;
     border-collapse: collapse;
-    border-bottom: 0.1px solid;
-    border-color:gray;
 }
 
 td,th{
     padding: 8px;
+   
 }
 
 th{
-    background-color: rgb(8, 8, 225);
+    background-color: red;
     color: white;
-    font-size:30px ;
+    font-size:20px ;
     font-family: 'Times New Roman', Times, serif;
+   
 }
 
 td{
@@ -41,22 +47,18 @@ td{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+tr:nth-child(odd){
+    background-color: rgb(211, 207, 207);
+}
 
 tr:hover{
     background-color: gray;
 }
 
-.button{
+button{
     background-color: white;
-    
-    
-}
-
-.fa-square-check{
-    color: green;
-}
-
-.fa-x{
-    color: red;
+    border-color: red;
     font-size: 20px;
+    
+    
 }
