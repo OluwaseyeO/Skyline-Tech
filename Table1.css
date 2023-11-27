@@ -1,0 +1,62 @@
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.container p{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+table{
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+table,td,th{
+    border-collapse: collapse;
+    border-bottom: 0.1px solid;
+    border-color:gray;
+}
+
+td,th{
+    padding: 8px;
+}
+
+th{
+    background-color: rgb(8, 8, 225);
+    color: white;
+    font-size:30px ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+td{
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+tr:hover{
+    background-color: gray;
+}
+
+.button{
+    background-color: white;
+    
+    
+}
+
+.fa-square-check{
+    color: green;
+}
+
+.fa-x{
+    color: red;
+    font-size: 20px;
+}
